@@ -102,7 +102,7 @@ This pipeline is implemented using a **Jenkins Shared Library**, which encapsula
 
   <br/>
   <em>Figure 3: Jenkins Stage View</em>
-</p><img width="1867" height="851" alt="CI_SUCCSS" src="https://github.com/user-attachments/assets/124c2235-5612-4bc5-9c69-802b2160acc3" />
+
 
 
 1. **Code Checkout**
