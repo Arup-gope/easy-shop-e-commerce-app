@@ -97,6 +97,13 @@ The **Jenkins CI pipeline** automates the entire lifecycle of the **EasyShop** a
 This pipeline is implemented using a **Jenkins Shared Library**, which encapsulates all reusable functions for building, testing, scanning, and deploying the application.
 
 ### 🔄 Pipeline Workflow
+</p><img width="1867" height="851" alt="CI_SUCCSS" src="https://github.com/user-attachments/assets/124c2235-5612-4bc5-9c69-802b2160acc3" />
+
+
+  <br/>
+  <em>Figure 3: Jenkins Stage View</em>
+</p><img width="1867" height="851" alt="CI_SUCCSS" src="https://github.com/user-attachments/assets/124c2235-5612-4bc5-9c69-802b2160acc3" />
+
 
 1. **Code Checkout**
    - Pulls the latest application code from the Git repository.
@@ -133,7 +140,7 @@ This pipeline is implemented using a **Jenkins Shared Library**, which encapsula
 
 
   <br/>
-  <em>Figure 3: Jenkins console output showing pipeline execution</em>
+  <em>Figure 4: Jenkins console output showing pipeline execution</em>
 </p>
 
 <p align="center">
@@ -142,7 +149,7 @@ This pipeline is implemented using a **Jenkins Shared Library**, which encapsula
 
  
   <br/>
-  <em>Figure 4: Docker Hub registry showing updated EasyShop images</em>
+  <em>Figure 5: Docker Hub registry showing updated EasyShop images</em>
 </p>
 
 <p align="center">
@@ -151,7 +158,7 @@ This pipeline is implemented using a **Jenkins Shared Library**, which encapsula
 
   
   <br/>
-  <em>Figure 5: Git repository with updated Kubernetes manifest files</em>
+  <em>Figure 6: Git repository with updated Kubernetes manifest files</em>
 </p>
 
 ## 🔄 GitOps Deployment with Argo CD
@@ -186,7 +193,7 @@ Instead of Jenkins directly applying Kubernetes manifests, Argo CD continuously 
   <img width="1883" height="928" alt="ArgoCD_Page" src="https://github.com/user-attachments/assets/f98a4ada-2394-4a03-a4f2-c124931ada51" />
 
   <br/>
-  <em>Figure 5: Argo CD dashboard showing EasyShop application in sync and healthy state</em>
+  <em>Figure 7: Argo CD dashboard showing EasyShop application in sync and healthy state</em>
 </p>
 
 # 📊 Monitoring with Prometheus & Grafana
@@ -219,7 +226,7 @@ helm install prometheus prometheus-community/prometheus
    <img width="1857" height="952" alt="Running_Prometheus_Metrics" src="https://github.com/user-attachments/assets/de1e97ad-ef7d-4340-9857-e27347a81c15" />
 
   <br/>
-  <em>Figure 6: Prometheus dashboard showing cluster and application metrics</em></em>
+  <em>Figure 8: Prometheus dashboard showing cluster and application metrics</em></em>
 </p>
 
 
@@ -242,20 +249,20 @@ helm install grafana grafana/grafana
 
 
   <br/>
-  <em>Figure 7: Grafana home dashboard</em></em>
+  <em>Figure 9: Grafana home dashboard</em></em>
 </p>
 
 
 <p align="center">
   <img width="1887" height="920" alt="Grafana_API_Server_Monitor" src="https://github.com/user-attachments/assets/630eefea-40eb-409e-907b-4f2e8611b7ee" />
   <br/>
-  <em>Figure 8: Grafana dashboard monitoring Kubernetes API server metrics</em>
+  <em>Figure 10: Grafana dashboard monitoring Kubernetes API server metrics</em>
 </p>
 
 <p align="center">
   <img width="1892" height="931" alt="Grafana_Cluster_Rescources_Monitor" src="https://github.com/user-attachments/assets/84799c40-32ad-4983-9ada-f21b82578e0e" />
   <br/>
-  <em>Figure 9: Grafana dashboard showing CPU, memory, and pod metrics for the cluster</em>
+  <em>Figure 11: Grafana dashboard showing CPU, memory, and pod metrics for the cluster</em>
 </p
 
 
@@ -268,7 +275,7 @@ helm install grafana grafana/grafana
 <p align="center">
  <img width="1890" height="972" alt="Grafana_Kubelet_Monitor" src="https://github.com/user-attachments/assets/25562f3b-80d7-4cfb-8fc3-09c8ed724f09" />
   <br/>
-  <em>Figure 10: Grafana dashboard monitoring Kubelet metrics per node</em>
+  <em>Figure 12: Grafana dashboard monitoring Kubelet metrics per node</em>
 </p>
 
   # 🎉 Final Result: Running EasyShop Application
@@ -285,7 +292,7 @@ The following screenshots show the key features of the running application.
   <img width="1887" height="972" alt="New_Account_Create" src="https://github.com/user-attachments/assets/3971482d-d2fc-4201-a861-843148f94af5" />
 
   <br/>
-  <em>Figure 11: User account creation page</em>
+  <em>Figure 13: User account creation page</em>
 </p>
 
 ---
@@ -296,7 +303,7 @@ The following screenshots show the key features of the running application.
   
 <img width="1898" height="952" alt="Add_Cart" src="https://github.com/user-attachments/assets/85ec1048-e3f0-4f29-8af4-0dfc158e823d" />
   <br/>
-  <em>Figure 12: Adding products to the shopping cart</em>
+  <em>Figure 14: Adding products to the shopping cart</em>
 </p>
 
 ---
@@ -310,7 +317,7 @@ The following screenshots show the key features of the running application.
  
 
   <br/>
-  <em>Figure 13: Checkout page for completing orders</em>
+  <em>Figure 15: Checkout page for completing orders</em>
 </p>
 
 ---
@@ -320,7 +327,7 @@ The following screenshots show the key features of the running application.
 <p align="center">
  <img width="1751" height="916" alt="Order_Placed" src="https://github.com/user-attachments/assets/2ac6b2f2-2fb4-4a34-9e60-5477da46e2f8" />
   <br/>
-  <em>Figure 14: Confirmation page after successfully placing an order</em>
+  <em>Figure 16: Confirmation page after successfully placing an order</em>
 </p>
 
 
